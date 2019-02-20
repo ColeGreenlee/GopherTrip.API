@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopherTrip.API", "GopherTrip.API\GopherTrip.API.csproj", "{1F5B36DB-7D94-4097-AD95-D654E47EE3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopherTrip.ConsoleTests", "GopherTrip.ConsoleTests\GopherTrip.ConsoleTests.csproj", "{2C73D9FE-A9CB-4BA3-8E75-1515BBA9AE66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F5B36DB-7D94-4097-AD95-D654E47EE3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5B36DB-7D94-4097-AD95-D654E47EE3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5B36DB-7D94-4097-AD95-D654E47EE3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5B36DB-7D94-4097-AD95-D654E47EE3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C73D9FE-A9CB-4BA3-8E75-1515BBA9AE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C73D9FE-A9CB-4BA3-8E75-1515BBA9AE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C73D9FE-A9CB-4BA3-8E75-1515BBA9AE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C73D9FE-A9CB-4BA3-8E75-1515BBA9AE66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {509640F8-4439-4A37-8B5F-AC3A0D94F770}
+	EndGlobalSection
+EndGlobal
