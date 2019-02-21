@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopherTrip.API", "GopherTrip.API\GopherTrip.API.csproj", "{1F5B36DB-7D94-4097-AD95-D654E47EE3D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GopherTrip.API", "GopherTrip.API\GopherTrip.API.csproj", "{1F5B36DB-7D94-4097-AD95-D654E47EE3D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopherTrip.ConsoleTests", "GopherTrip.ConsoleTests\GopherTrip.ConsoleTests.csproj", "{2C73D9FE-A9CB-4BA3-8E75-1515BBA9AE66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GopherTrip.ConsoleTests", "GopherTrip.ConsoleTests\GopherTrip.ConsoleTests.csproj", "{2C73D9FE-A9CB-4BA3-8E75-1515BBA9AE66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F5B36DB-7D94-4097-AD95-D654E47EE3D0} = {1F5B36DB-7D94-4097-AD95-D654E47EE3D0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,12 @@
+﻿"BPT_API_URL": "https://api.peaktransit.com/v5/index.php?",
+"ETAListURL": "https://api.peaktransit.com/v5/index.php?app_id=_RIDER&controller=eta&action=list&agencyID=88&key=c620b8fe5fdbd6107da8c8381f4345b4",
+"stopListURL": "https://api.peaktransit.com/v5/index.php?app_id=_RIDER&controller=stop&action=list&agencyID=88&key=c620b8fe5fdbd6107da8c8381f4345b4",
+"routeListURL": "https://api.peaktransit.com/v5/index.php?app_id=_RIDER&controller=route&action=list&agencyID=88&key=c620b8fe5fdbd6107da8c8381f4345b4",
+"shapeListURL": "https://api.peaktransit.com/v5/index.php?app_id=_RIDER&controller=shape&action=list&agencyID=88&key=c620b8fe5fdbd6107da8c8381f4345b4",
+"vehicleListURL": "https://api.peaktransit.com/v5/index.php?app_id=_RIDER&controller=vehicle&action=list&agencyID=88&key=c620b8fe5fdbd6107da8c8381f4345b4",
+"avasSequenceURL": "https://api.peaktransit.com/v5/index.php?&app_id=_RIDER&controller=avas&action=sequence&agencyID=88&key=c620b8fe5fdbd6107da8c8381f4345b4",
+"agencyDataURL": "https://api.peaktransit.com/v5/index.php?app_id=_RIDER&controller=agency&action=data&agencyID=88&key=c620b8fe5fdbd6107da8c8381f4345b4",
+"agencyListURL": "https://api.peaktransit.com/v5/index.php?app_id=_RIDER&controller=agency&action=list&key=c620b8fe5fdbd6107da8c8381f4345b4",
+
+
+controllers: 
