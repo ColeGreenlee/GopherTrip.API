@@ -19,10 +19,10 @@ namespace GopherTrip.API
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
-    public partial class Routes
+    public partial class RouteResponse
     {
         [JsonProperty("route")]
-        public List<Route> Route { get; set; }
+        public List<Route> RouteList { get; set; }
 
         [JsonProperty("success")]
         public bool Success { get; set; }
@@ -106,9 +106,9 @@ namespace GopherTrip.API
         public DateTimeOffset Updated { get; set; }
     }
 
-    public partial class Routes
+    public partial class RouteResponse
     {
-        public static Routes FromJson(string json) => JsonConvert.DeserializeObject<Routes>(json, GopherTrip.API.Converter.Settings);
+        public static RouteResponse FromJson(string json) => JsonConvert.DeserializeObject<RouteResponse>(json, GopherTrip.API.Converter.Settings);
     }
 }
 

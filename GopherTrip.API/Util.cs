@@ -7,13 +7,20 @@ using System.Text;
 
 namespace GopherTrip.API
 {
-    class Util
+    public class Util
     {
-        //Blank for now.
+        public static DateTime ConvertFromUnixTimestamp(double timestamp)
+        {
+            DateTime origin = new DateTime(1970, 1, 1, 0, 0, 0, 0);
+            return origin.AddSeconds(timestamp);
+        }
+
     }
+
+
     public static class Serialize
     {
-        public static string ToJson(this Stops self) => JsonConvert.SerializeObject(self, GopherTrip.API.Converter.Settings);
+        public static string ToJson(this StopResponse self) => JsonConvert.SerializeObject(self, GopherTrip.API.Converter.Settings);
     }
 
     internal static class Converter

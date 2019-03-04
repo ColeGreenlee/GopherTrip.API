@@ -12,10 +12,10 @@ namespace GopherTrip.API
     using System;
     using System.Collections.Generic;
 
-    public partial class Vehicles
+    public partial class VehicleResponse
     {
         [JsonProperty("vehicle")]
-        public List<Vehicle> Vehicle { get; set; }
+        public List<Vehicle> VehicleList { get; set; }
 
         [JsonProperty("success")]
         public bool Success { get; set; }
@@ -91,9 +91,9 @@ namespace GopherTrip.API
         public long VehicleState { get; set; }
     }
 
-    public partial class Vehicles
+    public partial class VehicleResponse
     {
-        public static Vehicles FromJson(string json) => JsonConvert.DeserializeObject<Vehicles>(json, GopherTrip.API.Converter.Settings);
+        public static VehicleResponse FromJson(string json) => JsonConvert.DeserializeObject<VehicleResponse>(json, GopherTrip.API.Converter.Settings);
     }
 
     internal class ParseStringConverter : JsonConverter

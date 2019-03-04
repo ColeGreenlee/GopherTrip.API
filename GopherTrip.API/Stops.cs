@@ -19,10 +19,10 @@ namespace GopherTrip.API
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
-    public partial class Stops
+    public partial class StopResponse
     {
         [JsonProperty("stop")]
-        public List<Stop> Stop { get; set; }
+        public List<Stop> StopList { get; set; }
 
         [JsonProperty("success")]
         public bool Success { get; set; }
@@ -43,8 +43,8 @@ namespace GopherTrip.API
         public long StopId { get; set; }
     }
 
-    public partial class Stops
+    public partial class StopResponse
     {
-        public static Stops FromJson(string json) => JsonConvert.DeserializeObject<Stops>(json, GopherTrip.API.Converter.Settings);
+        public static StopResponse FromJson(string json) => JsonConvert.DeserializeObject<StopResponse>(json, GopherTrip.API.Converter.Settings);
     }
 }
